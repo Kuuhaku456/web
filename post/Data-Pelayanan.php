@@ -82,8 +82,8 @@
                 <td><?php echo $layan["metode"] ;?></td>
                 <td><img src="img/<?= $layan['gambar'] ?>" width="50" height="50"></td>
                 <td>
-                    <a class = "btn-update" href="update_dokter.php?id=<?php echo $layan["id"];?>"><i class='bx bxs-edit'></i></a>
-                    <a class = "btn-delete" href="delete_dokter.php?id=<?php echo $layan["id"];?>"><i class='bx bx-trash' ></i></a>
+                    <a class = "btn-update" href="update-layanan.php?id=<?php echo $layan["id"];?>"><i class='bx bxs-edit'></i></a>
+                    <a class = "btn-delete" href="delete-layanan.php?id=<?php echo $layan["id"];?>"><i class='bx bx-trash' ></i></a>
                 </td>
             </tr>
             

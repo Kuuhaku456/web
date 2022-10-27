@@ -1,6 +1,6 @@
 <?php
     require 'connect.php';
-    if (!isset($_SESSION['username'])) {
+    if (!isset($_SESSION['login'])) {
         header("Location: login.php");
     }
     $id = $_GET['id'];
@@ -40,7 +40,6 @@
         }
     }
 ?>
-
 
 
 <!DOCTYPE html>
